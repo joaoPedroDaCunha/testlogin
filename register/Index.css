@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://wallpapercave.com/wp/v9dkzI3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+main{
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px 40px rgba(0,0,0,0.4);
+    background-color: #fff;
+}
+.post{
+    flex-direction: row;
+    gap: 5px;
+}
+.fpost{
+    gap: 5px;
+    padding: 5px;
+    margin: 5px;
+}

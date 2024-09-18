@@ -9,7 +9,9 @@
     align-content: center;
     align-items: center;
     font-family: 'Inter',sans-serif;
-    background-color: #fff;
+    background-image: url('https://wallpapercave.com/wp/v9dkzI3.jpg');
+    background-size: cover;
+    background-position: center;
 }
 .flex{
     justify-content: center;
@@ -19,6 +21,7 @@
     border-radius: 20px;
     padding: 20px;
     box-shadow: 10px 10px 40px 40px rgba(0,0,0,0.4);
+    background-color: #fff;
     
 }
 .title{
@@ -37,6 +40,10 @@
     height: 30px;
     margin: 5px;
     margin-left: 14.4px;
+    background-image: url('https://wallpapercave.com/wp/v9dkzI3.jpg');
+    background-size: cover;
+    background-position: center;
+
 }
 .pb{
     margin: 0px;

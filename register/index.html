@@ -1,11 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="Index.css">
+    <title>Registar</title>
 </head>
+<header><h3>Area de Registro</h3></header>
 <body>
-    
+    <main>
+        <form method="post" class="post">
+            <div class="fpost">
+                <label for="email">E-mail</label>
+                <input type="email" class="email" id="email">
+            </div>
+            <div class="fpost">
+                <label for="password1">Senha</label>
+                <input type="password" class="password1" id="password1">
+                
+            </div>
+            <div class="fpost">
+                <label for="password2">Confirme sua Senha</label>
+                <input type="password" class="password2" id="password2">
+            </div>
+            <div class="fpost">
+                <label for="primeiroNome">Nome</label>    
+                <input type="text" class="primeiroNome" id="primeiroNome">
+                <label for="segundoNome">Sobrenome</label>
+                <input type="text" class="segundoNome" id="segundoNome">
+            </div>    
+        </form>
+    </main>
 </body>
 </html>
